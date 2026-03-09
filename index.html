@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Breeno Pereira - Desenvolvedor Full-Stack">
+  <meta name="theme-color" content="#0a0e27">
+  <title>Breeno Pereira | Portfólio</title>
+  <!-- Google Fonts - Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Efeito cosmos / partículas (canvas) -->
+  <canvas id="cosmos-canvas" aria-hidden="true"></canvas>
+
+  <!-- Header / Navegação -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="#home" class="logo" aria-label="Ir para o início">Breeno Pereira</a>
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#home" class="nav-link" aria-label="Início">Início</a>
+        <a href="#about" class="nav-link" aria-label="Sobre">Sobre</a>
+        <a href="#projects" class="nav-link" aria-label="Projetos">Projetos</a>
+        <a href="#skills" class="nav-link" aria-label="Habilidades">Habilidades</a>
+        <a href="#contact" class="nav-link" aria-label="Contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Container principal -->
+  <main class="main-container">
+    <section id="home" class="section">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Olá, eu sou <span class="hero-name">Breeno Pereira</span>.
+          </h1>
+          <p class="hero-subtitle">Desenvolvedor Full-Stack</p>
+          <p class="hero-description">
+            Especializado em criar soluções digitais escaláveis e de alta performance
+          </p>
+          <a href="#projects" class="hero-cta" aria-label="Ver meu trabalho">Ver Meu Trabalho</a>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-visual-bg"></div>
+          <div class="hero-avatar"></div>
+          <div class="hero-float hero-float-laptop" aria-hidden="true"></div>
+          <div class="hero-float hero-float-js" aria-hidden="true"></div>
+          <div class="hero-float hero-float-gear hero-float-gear-1" aria-hidden="true"></div>
+          <div class="hero-float hero-float-gear hero-float-gear-2" aria-hidden="true"></div>
+          <div class="hero-float hero-float-play" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="about" class="section section-about">
+      <div class="about-container">
+        <div class="about-col about-col-left">
+          <h2 class="about-title">
+            <span class="about-title-accent"></span>
+            Sobre Mim
+          </h2>
+          <div class="about-decorative-line" aria-hidden="true">
+            <span class="about-line-dot"></span>
+            <span class="about-line-dot"></span>
+            <span class="about-line-dot"></span>
+          </div>
+          <div class="about-illustration" aria-hidden="true">
+            <div class="about-illustration-code-icon" aria-hidden="true">&lt;/&gt;</div>
+            <div class="about-illustration-gear" aria-hidden="true">&#9881;</div>
+            <div class="about-monitor">
+              <div class="about-monitor-inner">
+                <div class="about-code-line about-code-1"></div>
+                <div class="about-code-line about-code-2"></div>
+                <div class="about-code-line about-code-3"></div>
+                <div class="about-code-line about-code-4"></div>
+              </div>
+            </div>
+            <div class="about-badge about-badge-html">HTML</div>
+            <div class="about-badge about-badge-css">CSS</div>
+            <div class="about-badge about-badge-js">JS</div>
+          </div>
+          <div class="about-illustration about-illustration-2" aria-hidden="true">
+            <div class="about-term-icon" aria-hidden="true">&gt;</div>
+            <div class="about-term-arrow" aria-hidden="true">&#8597;</div>
+            <div class="about-terminal">
+              <div class="about-terminal-header">
+                <span class="about-term-dot about-term-dot-red"></span>
+                <span class="about-term-dot about-term-dot-yellow"></span>
+                <span class="about-term-dot about-term-dot-green"></span>
+              </div>
+              <div class="about-terminal-inner">
+                <div class="about-term-line about-term-line-1"></div>
+                <div class="about-term-line about-term-line-2"></div>
+                <div class="about-term-line about-term-line-3"></div>
+              </div>
+            </div>
+            <div class="about-badge-2 about-badge-node">Node</div>
+            <div class="about-badge-2 about-badge-git">Git</div>
+            <div class="about-badge-2 about-badge-api">API</div>
+          </div>
+        </div>
+        <div class="about-col about-col-right">
+          <p class="about-text about-text-1">
+            Olá! Sou Breeno Pereira, um desenvolvedor full-stack de 25 anos apaixonado por tecnologia e inovação. Minha jornada no desenvolvimento web é movida pela curiosidade constante e pelo desejo de criar soluções que fazem a diferença.
+          </p>
+          <p class="about-text about-text-2">
+            Trabalho com diversas tecnologias modernas do ecossistema web, desde a construção de interfaces intuitivas até o desenvolvimento de APIs robustas e escaláveis. Cada projeto é uma oportunidade de aprender algo novo e evoluir como profissional.
+          </p>
+          <p class="about-text about-text-3">
+            Acredito que a melhor forma de crescer é nunca parar de aprender. Estou sempre explorando novas ferramentas, frameworks e metodologias para entregar soluções cada vez melhores e mais eficientes.
+          </p>
+          <div class="about-stats">
+            <div class="about-stat-card">
+              <span class="about-stat-number">2+</span>
+              <span class="about-stat-label">Anos de Experiência</span>
+            </div>
+            <div class="about-stat-card">
+              <span class="about-stat-number">2+</span>
+              <span class="about-stat-label">Projetos Concluídos</span>
+            </div>
+            <div class="about-stat-card">
+              <span class="about-stat-number">5+</span>
+              <span class="about-stat-label">Linguagens Dominadas</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projects" class="section section-projects">
+      <header class="projects-section-header">
+        <h2 class="projects-section-title">Meus Projetos</h2>
+        <p class="projects-section-subtitle">Conheça os projetos que desenvolvi</p>
+      </header>
+
+      <article class="project-showcase" id="project-control-petro">
+        <div class="project-images">
+          <div class="project-image-main">
+            <img src="images/Captura%20de%20tela%202026-02-12%20190828.png" alt="Dashboard Control Petro" class="project-img-main" />
+          </div>
+          <div class="project-thumbnails">
+            <button type="button" class="project-thumb project-thumbnail active" aria-label="Dashboard" data-index="0">
+              <img src="images/Captura%20de%20tela%202026-02-12%20190828.png" alt="Dashboard" />
+            </button>
+            <button type="button" class="project-thumb project-thumbnail" aria-label="Screenshot 2" data-index="1">
+              <img src="images/Captura%20de%20tela%202026-02-12%20190844.png" alt="Screenshot 2" />
+            </button>
+            <button type="button" class="project-thumb project-thumbnail" aria-label="Screenshot 3" data-index="2">
+              <img src="images/Captura%20de%20tela%202026-02-12%20190900.png" alt="Screenshot 3" />
+            </button>
+          </div>
+        </div>
+        <div class="project-info">
+          <span class="project-badge">EM PRODUÇÃO</span>
+          <h3 class="project-title">Control Petro</h3>
+          <p class="project-description">
+            Sistema completo de gestão de abastecimento de frotas para empresas e prefeituras. Plataforma web e mobile com controle de veículos, autorizações, relatórios e validação de consumo em tempo real.
+          </p>
+          <div class="project-tech-tags">
+            <span class="tech-tag">Next.js</span>
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">TypeScript</span>
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">PostgreSQL</span>
+            <span class="tech-tag">Expo</span>
+            <span class="tech-tag">React Native</span>
+            <span class="tech-tag">Prisma</span>
+          </div>
+          <ul class="project-features">
+            <li>Gestão completa de frotas</li>
+            <li>Autorizações via QR Code</li>
+            <li>App mobile para motoristas</li>
+            <li>Relatórios e dashboards</li>
+            <li>Sistema multi-tenant</li>
+          </ul>
+          <div class="project-actions">
+            <a href="#" class="project-gallery-btn project-view-btn" aria-label="Ver imagens do projeto">Ver Imagens</a>
+          </div>
+        </div>
+      </article>
+
+      <div class="cards-grid">
+        <!-- Card Skills -->
+        <article id="skills" class="skills-card">
+          <header class="skills-card-header">
+            <span class="skills-card-icon" aria-hidden="true">→</span>
+            <h2 class="skills-card-title">Minhas Habilidades</h2>
+          </header>
+          <div class="skills-icons-grid">
+            <div class="skill-icon skill-html" title="HTML5">H5</div>
+            <div class="skill-icon skill-css" title="CSS3">CSS3</div>
+            <div class="skill-icon skill-js" title="JavaScript">JS</div>
+            <div class="skill-icon skill-php" title="PHP">&lt;/&gt;</div>
+            <div class="skill-icon skill-react" title="React">⚛</div>
+            <div class="skill-icon skill-node" title="Node.js">N</div>
+            <div class="skill-icon skill-mongo" title="MongoDB">M</div>
+            <div class="skill-icon skill-git" title="Git">⎇</div>
+          </div>
+          <div class="skills-card-footer">
+            <h3 class="skills-footer-title">Desenvolvimento Full-Stack</h3>
+            <p class="skills-footer-subtitle">Soluções Front-End & Back-End</p>
+          </div>
+        </article>
+        <!-- Card Contact -->
+        <article id="contact" class="contact-card">
+          <header class="contact-card-header">
+            <span class="contact-card-icon" aria-hidden="true">→</span>
+            <h2 class="contact-card-title">Entre em Contato</h2>
+          </header>
+          <p class="contact-call">Vamos trabalhar juntos no seu próximo projeto!</p>
+          <a href="mailto:breenoferri@gmail.com" class="contact-button" aria-label="Enviar email para breenoferri@gmail.com">
+            <div class="contact-button-left">
+              <div class="contact-icon contact-icon-email" aria-hidden="true">✉</div>
+              <div class="contact-button-labels">
+                <span class="contact-label">Me envie um email</span>
+                <span class="contact-value">breenoferri@gmail.com</span>
+              </div>
+            </div>
+            <span class="contact-arrow" aria-hidden="true">→</span>
+          </a>
+          <a href="#" class="contact-button" target="_blank" rel="noopener noreferrer" aria-label="Conectar no LinkedIn">
+            <div class="contact-button-left">
+              <div class="contact-icon contact-icon-linkedin" aria-hidden="true">in</div>
+              <span class="contact-button-title">Conecte-se no LinkedIn</span>
+            </div>
+            <span class="contact-arrow" aria-hidden="true">→</span>
+          </a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal / Lightbox da galeria -->
+  <div id="project-gallery-modal" class="gallery-modal" aria-hidden="true">
+    <div class="gallery-modal-overlay"></div>
+    <div class="gallery-modal-content">
+      <button type="button" class="gallery-close" aria-label="Fechar galeria">&times;</button>
+      <button type="button" class="gallery-prev" aria-label="Imagem anterior">&lt;</button>
+      <button type="button" class="gallery-next" aria-label="Próxima imagem">&gt;</button>
+      <img id="gallery-image" src="" alt="Screenshot do projeto" />
+      <div class="gallery-counter">
+        <span id="gallery-current">1</span> / <span id="gallery-total">4</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
