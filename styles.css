@@ -272,7 +272,7 @@ button:focus-visible,
   width: 400px;
   height: 400px;
   border-radius: 50%;
-  background: linear-gradient(145deg, #1e2139 0%, #2a2d4a 50%, #1a1d32 100%);
+  background: #1e2139 url('images/perfil.png') center / cover no-repeat;
   box-shadow:
     0 0 80px rgba(74, 158, 255, 0.4),
     0 0 120px rgba(74, 158, 255, 0.15),
