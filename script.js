@@ -154,7 +154,7 @@
     });
   });
 
-  var verImagensBtn = document.querySelector('.project-view-btn');
+  var verImagensBtn = document.querySelector('.project-view-images-btn');
   if (verImagensBtn) {
     verImagensBtn.addEventListener('click', function (e) {
       e.preventDefault();
